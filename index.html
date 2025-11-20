@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-  <html lang="en">
-<script>
-     <style>
-      .img-button {
-      transition: transform 0.2s;
-      }
-      .img-button:hover {
-      transform: scale(1.05);
-      }
-</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BgTegelen – Start</title>
+  <link rel="stylesheet" href="style.css">
 
-<a href="index.html">
-  <img class="img-button" src="images/image1.png" width="300">
-</a>
+  <style>
+    .image-link {
+      display: inline-block;
+      margin: 20px;
+      transition: transform 0.25s;
+    }
 
-<a href="about_us.html">
-  <img class="img-button" src="images/image2.png" width="300">
-</a>
-</script>
+    .image-link img {
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    .image-link:hover {
+      transform: scale(1.06);
+    }
+
+    body {
+      text-align: center;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome</h1>
+
+  <a class="image-link" href="password.html">
+    <img src="images/image1.png" alt="Go to password page">
+  </a>
+
+  <a class="image-link" href="website.html">
+    <img src="images/image2.png" alt="Go to main site">
+  </a>
+
+</body>
+</html>
